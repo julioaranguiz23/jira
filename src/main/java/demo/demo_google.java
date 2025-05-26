@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class demo_google {
     public static void main(String[] args) throws Exception {
-        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:\\Windows\\System32\\chromedriver.exe");
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless=new");
