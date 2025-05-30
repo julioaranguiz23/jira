@@ -25,7 +25,7 @@ public class demo_google {
         driver.get("https://google.com");
         String titulo = driver.getTitle();
         System.out.println("Título de la página: " + titulo);
-        Assert.assertEquals("Google", titulo);
+        Assert.assertEquals("Googl", titulo);
         Thread.sleep(2000);
         driver.quit();
     }
